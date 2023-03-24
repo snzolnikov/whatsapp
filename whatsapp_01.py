@@ -8,7 +8,7 @@ from config import MOBILE
 
 def send_message_inst():
     # input('Введите номер получателя: ')
-    # mobile = "+79829475224"
+    # mobile = "+79999999999"
     mobile = MOBILE
 
     message = input('Введите текст сообщения: ')
@@ -20,7 +20,7 @@ def send_message_inst():
 
 def send_message():
     #mobile = input('Введите номер получателя: ')
-    mobile = "+79829475224"
+    mobile = "+79999999999"
     # mobile = os.getenv('MOBILE')
     message = input('Введите текст сообщения: ')
     hour = int(input('Введите часы: '))
